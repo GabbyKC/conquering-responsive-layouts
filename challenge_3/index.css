@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.hero {
+    background-color: #04374a;
+    color: white;
+    padding: 3rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+.button {
+    text-transform: uppercase;
+    color: #04374a;
+    background-color: #5a9f78;
+    text-decoration: none;
+    font-size: 0.75rem;
+    padding: 10px 25px;
+    font-weight: bold;
+    border-radius: 2rem;
+    display: inline-block;
+}
+
+.hero__content {
+    width: 50%
+}
+
+.hero p {
+    margin-bottom: 50px;
+}
