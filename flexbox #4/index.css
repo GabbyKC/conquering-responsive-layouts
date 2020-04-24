@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 1.3rem;
+}
+
+img {
+    object-fit: contain;
+    border: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1128px;
+    margin: auto;
+}
+
+.hero {
+    background: #f3eed9;
+    min-height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero small {
+    text-transform: uppercase;
+    color: #5a9f78;
+    letter-spacing: .5rem;
+}
+
+.hero h1 {
+    color: #824936;
+    font-family: fantasy;
+}
+
+.section {
+    padding: 4rem 2rem;
+}
+
+.section-one-title {
+    text-align: center;
+    color: #5a9f78;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex > * {
+    width: 45%;
+}
+
+.margin-left {
+    margin-left: 10%;
+}
+
+.section-dark {
+    background: #222c2a;
+    color: white;
+}
+
+.section-light {
+    background: #824936;
+    color: white;
+}
+
+.section-light h2 {
+    color: #f3eed9;
+}
+
